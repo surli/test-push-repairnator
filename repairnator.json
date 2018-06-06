@@ -1,15 +1,20 @@
 {
+  "pr-base-commit-id": "7f29a8188b2a975760bdb27edfd0a15bcc5b2956",
+  "pr-head-commit-id": "5b2c5a5a2e82fd24cc7f019e0926626700be7954",
   "totalNumberSkippingTests": 4,
-  "bugType": "failing_passing",
-  "totalNumberErroringTests": 0,
-  "repo": "INRIA/spoon",
-  "failingModule": "/root/workspace/INRIA/spoon/369997088",
-  "hostname": "spirals-bears",
-  "totalNumberFailingTests": 4,
+  "pr-remote-repo": "tdurieux/spoon",
   "error-types": [
     "java.lang.AssertionError"
   ],
+  "totalNumberFailingTests": 4,
+  "totalNumberErroringTests": 0,
+  "hostname": "spirals-bears",
+  "is-pr": "true",
+  "bugType": "failing_passing",
   "totalNumberRunningTests": 1411,
+  "pr-head-commit-id-url": "https://github.com/INRIA/spoon/commit/5b2c5a5a2e82fd24cc7f019e0926626700be7954",
+  "pr-id": 1969,
+  "repo": "INRIA/spoon",
   "failing-test-cases": [
     {
       "className": "spoon.MavenLauncherTest",
@@ -55,5 +60,68 @@
       "nbFailures": 2,
       "nbErrors": 0
     }
-  ]
+  ],
+  "metrics": {
+    "StepsDurationsInSeconds": {
+      "ComputeClasspath": 7,
+      "ComputeTestDir": 0,
+      "CheckoutBuggyBuildCandidate": 7,
+      "GatherTestInformationPatchedBuildCandidate": 0,
+      "ComputeSourceDir": 0,
+      "InitRepoToPush": 5,
+      "TestProjectPatchedBuildCandidate": 568,
+      "BuildProjectPatchedBuildCandidate": 20,
+      "CheckoutPatchedBuildCandidate": 3,
+      "TestProjectBuggyBuildCandidate": 556,
+      "BuildProjectBuggyBuildCandidate": 64,
+      "CloneRepository": 9,
+      "GatherTestInformationBuggyBuildCandidate": 0
+    },
+    "FailureNames": [
+      "java.lang.AssertionError"
+    ],
+    "NbFailingTests": 4,
+    "NbErroringTests": 0,
+    "NbSkippingTests": 4,
+    "NbRunningTests": 1411,
+    "BugCommitUrl": "http://github.com/INRIA/spoon/commit/69e05bdd9106298bc858e32925b58435dba6329c",
+    "PatchCommitUrl": "http://github.com/INRIA/spoon/commit/90858a603974957c5ef78b3f169b8bf39dc47a94",
+    "ReproductionDate": "Jun 6, 2018 2:17:39 PM",
+    "BuggyBuildId": 369997088,
+    "PatchedBuilId": 370005931,
+    "BuggyBuildURL": "http://travis-ci.org/INRIA/spoon/builds/369997088",
+    "PatchedBuildURL": "http://travis-ci.org/INRIA/spoon/builds/370005931",
+    "BuggyBuildDate": "Apr 23, 2018 10:56:39 AM",
+    "PatchedBuildDate": "Apr 23, 2018 11:23:39 AM",
+    "BugCommit": "69e05bdd9106298bc858e32925b58435dba6329c",
+    "PatchCommit": "90858a603974957c5ef78b3f169b8bf39dc47a94",
+    "PatchChangedFiles": 0,
+    "PatchAddedLines": 0,
+    "PatchDeletedLines": 0,
+    "NbLibraries": 14,
+    "NbFileApp": 1080,
+    "NbFileTests": 660,
+    "NbCPU": 16,
+    "FreeMemory": 287191976,
+    "TotalMemory": 463470592,
+    "AngelicValuesByTest": {},
+    "FreeMemoryByStep": {
+      "ComputeClasspath": 251846056,
+      "ComputeTestDir": 215437024,
+      "CheckoutBuggyBuildCandidate": 227735088,
+      "GatherTestInformationPatchedBuildCandidate": 287191976,
+      "ComputeSourceDir": 215437024,
+      "InitRepoToPush": 255580104,
+      "TestProjectPatchedBuildCandidate": 309259448,
+      "BuildProjectPatchedBuildCandidate": 327385392,
+      "CheckoutPatchedBuildCandidate": 333133720,
+      "TestProjectBuggyBuildCandidate": 395934424,
+      "BuildProjectBuggyBuildCandidate": 420710792,
+      "CloneRepository": 358755896,
+      "GatherTestInformationBuggyBuildCandidate": 377305024
+    },
+    "NbSucceedingTests": 1407
+  },
+  "pr-base-commit-id-url": "https://github.com/INRIA/spoon/commit/7f29a8188b2a975760bdb27edfd0a15bcc5b2956",
+  "failingModule": "/root/workspace/INRIA/spoon/369997088"
 }
