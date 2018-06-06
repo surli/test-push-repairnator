@@ -1,0 +1,32 @@
+{
+  "totalNumberSkippingTests": 0,
+  "bugType": "failing_passing",
+  "totalNumberErroringTests": 0,
+  "repo": "fermadeiral/test-repairnator-bears",
+  "bugCommit": "https://github.com/fermadeiral/test-repairnator-bears/compare/74bf15f21120...4d8db3a2ee3b",
+  "failingModule": "/root/workspace/fermadeiral/test-repairnator-bears/386269112/test-repairnator-bears-core",
+  "hostname": "spirals-bears",
+  "totalNumberFailingTests": 1,
+  "error-types": [
+    "org.junit.ComparisonFailure"
+  ],
+  "totalNumberRunningTests": 4,
+  "failing-test-cases": [
+    {
+      "className": "GitHelperTest",
+      "failingMethods": [
+        "testGitCheckoutCommit"
+      ],
+      "erroringMethods": [],
+      "failures": [
+        {
+          "failureName": "org.junit.ComparisonFailure",
+          "failureDetail": "expected:\u003c...21fb8ff2caa8e81a6663[]\u003e but was:\u003c...21fb8ff2caa8e81a6663[ ]\u003e",
+          "isError": false
+        }
+      ],
+      "nbFailures": 1,
+      "nbErrors": 0
+    }
+  ]
+}
